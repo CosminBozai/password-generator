@@ -39,12 +39,20 @@ h1 {
     line-height: 31px;
   }
   .copy {
+    margin-bottom: -4px;
+    margin-left: 4px;
     scale: 1;
     fill: $pale-green;
     cursor: pointer;
   }
   .copy:hover {
     fill: $slade;
+  }
+  #copy-message {
+    font-weight: 500;
+    color: $pale-green;
+    opacity: 0;
+    transition: 0.15s ease-in-out;
   }
 }
 
