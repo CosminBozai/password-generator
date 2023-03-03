@@ -1,0 +1,153 @@
+@import "./colors";
+@import "./fonts";
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: $black-900;
+}
+
+.main-container {
+  width: min(540px, 90%);
+  color: $slade;
+  font-family: "JetBrainsMono";
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: center;
+  color: $violet;
+}
+
+.password-wrapper,
+.generator-body {
+  padding: 1.5rem;
+  background-color: $black-700;
+}
+
+.password-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .password {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .copy {
+    scale: 1;
+    fill: $pale-green;
+    cursor: pointer;
+  }
+  .copy:hover {
+    fill: $slade;
+  }
+}
+
+.black-divider {
+  width: 100%;
+  height: 1rem;
+}
+
+.generator-body {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.char-length-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  span:last-child {
+    font-size: 1.75rem;
+    color: $pale-green;
+  }
+}
+
+.options-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 0.25rem 0;
+}
+
+.strength-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: $black-900;
+  font-weight: 600;
+}
+
+.strength-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
+}
+
+.strength-indicator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
+  div {
+    width: 10px;
+    height: 28px;
+    border: 2px solid $slade;
+  }
+  .too-weak {
+    border: none;
+    background-color: $weak-red;
+  }
+  .weak {
+    border: none;
+    background-color: $weak-orange;
+  }
+  .medium {
+    border: none;
+    background-color: $medium-yellow;
+  }
+  .strong {
+    border: none;
+    background-color: $pale-green;
+  }
+}
+
+button {
+  width: 100%;
+  padding: 1rem 0;
+  border: 2px solid $pale-green;
+  background-color: $pale-green;
+  font-size: 18px;
+  font-weight: 600;
+  color: $black-900;
+  cursor: pointer;
+  svg {
+    scale: 1.2;
+    fill: $black-900;
+    margin-left: 12px;
+    margin-bottom: 1px;
+  }
+}
+
+button:hover {
+  background-color: $black-900;
+  color: $pale-green;
+  svg {
+    fill: $pale-green;
+  }
+}
+
+@media (min-width: 1440px) {
+  .password {
+    font-size: 32px;
+    line-height: 43px;
+  }
+}
