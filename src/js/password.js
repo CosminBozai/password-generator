@@ -66,11 +66,11 @@ const generatePassword = ({
 
   // Calculate strength level based on entropy
   let strength;
-
-  if (entropy <= 30000) strength = 1;
-  else if (entropy > 30000 && entropy <= 50000) strength = 2;
-  else if (entropy > 50000 && entropy <= 70000) strength = 3;
-  else if (entropy > 70000) strength = 4;
+  console.log(entropy);
+  if (entropy <= 55000) strength = 1;
+  else if (entropy > 55000 && entropy <= 70000) strength = 2;
+  else if (entropy > 70000 && entropy <= 80000) strength = 3;
+  else if (entropy > 80000) strength = 4;
 
   return { text, strength };
 };
