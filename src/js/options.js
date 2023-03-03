@@ -24,7 +24,6 @@ const checkboxList = document.querySelectorAll("input[type='checkbox");
 checkboxList.forEach((checkbox) => {
   checkbox.addEventListener("change", (e) => {
     generatorOptions[e.target.name] = e.target.checked;
-    console.log(generatorOptions);
   });
 });
 
