@@ -11,7 +11,7 @@
       <h1>Password Generator</h1>
       <div class="generator-container">
         <div class="password-wrapper">
-          <div class="password" id="password">P4$SW0RD</div>
+          <div class="password" id="password"></div>
           <div>
             <span id="copy-message">COPIED</span>
             <svg
@@ -50,15 +50,16 @@
             <input type="checkbox" name="symbols" />
             <label for="symbols">Include Symbols</label>
           </div>
+          <span class="error"></span>
           <div class="strength-section">
             <span>STRENGTH</span>
             <div class="strength-info">
-              <span>MEDIUM</span>
+              <span id="strength-level">MEDIUM</span>
               <div class="strength-indicator">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="indicator-el"></div>
+                <div class="indicator-el"></div>
+                <div class="indicator-el"></div>
+                <div class="indicator-el"></div>
               </div>
             </div>
           </div>
