@@ -11,7 +11,6 @@
   "devDependencies": {
     "sass": "^1.58.3",
     "vite": "^4.1.0",
-    "vite-plugin-sass-dts": "^1.2.16",
-    "vitest": "^0.29.2"
+    "vite-plugin-sass-dts": "^1.2.16"
   }
 }
