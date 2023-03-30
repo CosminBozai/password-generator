@@ -24,12 +24,12 @@ The app is responsive, ensuring that it looks great and functions smoothly on de
 
 ### Links
 
-Live Website: [Vercel]("https://password-generator-six-ruby.vercel.app/")
+Live Website: [Vercel](https://password-generator-six-ruby.vercel.app/)
 
 ### Built with
 
-- [Typescript]("https://www.typescriptlang.org/") : a superset of JavaScript that allows for static typing, making it easier to catch errors during development.
-- [Sass]("https://sass-lang.com/") : a CSS preprocessor
+- [Typescript](https://www.typescriptlang.org/) : a superset of JavaScript that allows for static typing, making it easier to catch errors during development.
+- [Sass](https://sass-lang.com/) : a CSS preprocessor
 
 ## Author
 
