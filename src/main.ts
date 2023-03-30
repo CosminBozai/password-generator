@@ -1,0 +1,9 @@
+import "./ts/options.ts";
+import "./ts/checkbox.ts";
+import "./ts/slider.ts";
+import "./ts/password.ts";
+import "./ts/strength.ts";
+import "./styles/index.scss";
+import "./styles/generator.scss";
+import "./styles/slider.scss";
+import "./styles/checkbox.scss";

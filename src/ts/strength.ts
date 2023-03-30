@@ -1,12 +1,14 @@
-import { password } from "./password";
+import { Password } from "./interfaces";
 
-const strengthLevelEl = document.querySelector("#strength-level");
+const strengthLevelEl = document.querySelector(
+  "#strength-level"
+) as HTMLSpanElement;
 const strengthIndicators = document.querySelectorAll(".indicator-el");
 
-const setStrength = (password) => {
+const setStrength = (password: Password) => {
   strengthIndicators.forEach((i) => (i.className = ""));
 
-  let className;
+  let className = "";
 
   switch (password.strength) {
     case 1:
@@ -31,7 +33,5 @@ const setStrength = (password) => {
     strengthIndicators[i].className = className;
   }
 };
-
-setStrength(password);
 
 export default setStrength;

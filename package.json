@@ -9,7 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/react": "^18.0.31",
+    "@types/react-dom": "^18.0.11",
     "sass": "^1.58.3",
+    "typescript": "^5.0.2",
     "vite": "^4.1.0",
     "vite-plugin-sass-dts": "^1.2.16"
   }
